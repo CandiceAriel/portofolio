@@ -1,0 +1,29 @@
+@import './global';
+@import './variables';
+
+.navbar{
+    padding: 15px 10px;
+    color: white;
+}
+
+#submenu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 10px;
+    width: 10%;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-brand{
+    font-weight: $weight-bold;
+    color: white;
+    margin-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
